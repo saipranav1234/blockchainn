@@ -1,0 +1,98 @@
+.dashboardd {
+    position: relative;
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    z-index: 6;
+    display: grid;
+    grid-template-columns: 23% 77%;
+}
+
+
+  .sidebar {
+    background-color: #000000; 
+    padding: 5rem 3rem;
+    margin-top: 4rem;
+    gap: 2rem;
+    color: rgba(255, 255, 255, 0.712);
+  }
+
+  .para {
+    display: flex;
+    margin-top: -0.001rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .icon {
+    display: flex;
+  }
+  
+
+  .side {
+       margin-top: 2rem;
+        display: flex;
+        line-height: 0.98rem;
+        gap: 2rem;
+        cursor: pointer;
+  }
+  
+  .rightside {
+    background-color: #000000; 
+  }
+
+  .wallet {
+        color: white;
+  }
+
+  .p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.863);
+    font-size:medium;
+  }
+  .pp {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.863);
+    font-size: smaller;
+  }
+
+  .boxes {
+    display: flex;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+
+  .box {
+    width: 11rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    background-color: #8C43E6;
+    display: flex;
+    padding: 0.7rem 0.7rem;
+    align-items: center;
+  }
+  .boxx {
+    width: 11rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.782);
+    display: flex;
+    padding: 0.7rem 0.7rem;
+    align-items: center;
+  }
+  .ic {
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+    
+  }
+
+  .bigside {
+    margin-left: 2.5rem;
+  }
+
+  .smallside {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    height: 2.1rem;
+  }
